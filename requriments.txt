@@ -1,9 +1,0 @@
-streamlit
-openai>=1.52.0
-
-deep-translator>=1.11.4
-gTTS>=2.5.3
-
-
-
-
