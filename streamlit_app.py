@@ -2,7 +2,7 @@ import time
 from typing import Tuple
 
 import streamlit as st
-from streamlit_mic_recorder import mic_recorder
+
 
 from translator import translate_text, SUPPORTED_LANGUAGES, LANG_NAME_TO_CODE
 from speech import transcribe_audio_wav
@@ -132,5 +132,6 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
 
 
